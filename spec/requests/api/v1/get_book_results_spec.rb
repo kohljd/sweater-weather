@@ -43,7 +43,7 @@ RSpec.describe "GET /api/v1/book-search" do
     expect(books[:id]).to eq(nil)
     expect(books[:type]).to eq("books")
     expect(books[:attributes]).to include(:destination, :forecast, :total_books_found, :books)
-    expect(books[:attributes][:destination]).to eq("denver,co")
+    expect(books[:attributes][:destination]).to eq("Denver, CO")
     expect(books[:attributes][:total_books_found]).to be_an(Integer)
 
     book_list = books[:attributes][:books]

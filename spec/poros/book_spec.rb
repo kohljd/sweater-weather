@@ -11,7 +11,7 @@ RSpec.describe "Book" do
 
     expect(books).to be_a(Book)
     expect(books.id).to eq(nil)
-    expect(books.destination).to eq('denver,co')
+    expect(books.destination).to eq("Denver, CO")
     expect(books.total_books_found).to eq(781)
     expect(books.forecast).to eq({:summary=>"Partly cloudy", :temperature=>"55 F"})
     expect(books.books.size).to eq(5)

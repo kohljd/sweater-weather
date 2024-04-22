@@ -7,10 +7,16 @@ class Book
 
   def initialize(book_results, current_weather, quantity)
     @id = nil
-    @destination = book_results[:q]
+    @destination = format_destination(book_results[:q])
     @forecast = format_weather(current_weather)
     @total_books_found = book_results[:numFound]
     @books = limit_results(book_results, quantity)
+  end
+
+  def format_destination(place)
+    city = place.split(",").first.capitalize
+    state = place.split(",").last.upcase
+    "#{city}, #{state}"
   end
 
   def format_weather(current_weather)

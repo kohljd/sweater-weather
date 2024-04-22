@@ -27,7 +27,7 @@ RSpec.describe ForecastService do
     end
   end
 
-  describe ".get_coordinates_for(location)" do
+  describe ".get_weather_for(location)" do
     it "returns location's weather data" do
       coordinates = {lat: 39.74001, lng: -104.99202}
       json_response = File.read("spec/fixtures/denver_forecast_2024-04-21.json")

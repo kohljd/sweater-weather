@@ -14,12 +14,23 @@ class ForecastService
     end
   end
 
-  def self.get_weather_for(lat, lon)
-    get_weather_url("")
+  def self.get_weather_for(coordinates)
+    params = {
+      q: "#{coordinates[:lat]},#{coordinates[:lng]}",
+      days: 5,
+      aqi: "no",
+      alerts: "no"
+    }
+    get_weather_url("/v1/forecast.json", params)
+  end
+
+  def self.get_weather_url(url, params)
+    response = weather_conn.get(url, params)
+    JSON.parse(response.body, symbolize_names: true)
   end
 
   def self.weather_conn
-    Faraday.new(url: "http://api.weatherapi.com/v1") do |faraday|
+    Faraday.new(url: "https://api.weatherapi.com") do |faraday|
       faraday.params["key"]=Rails.application.credentials.weather[:api_key]
     end
   end

@@ -1,0 +1,1073 @@
+{
+  "location": {
+    "name": "Denver",
+    "region": "Colorado",
+    "country": "United States of America",
+    "lat": 39.74,
+    "lon": -104.99,
+    "tz_id": "America/Denver",
+    "localtime_epoch": 1713754075,
+    "localtime": "2024-04-21 20:47"
+  },
+  "current": {
+    "last_updated": "2024-04-21 20:45",
+    "temp_f": 55.4,
+    "condition": {
+      "text": "Partly cloudy",
+      "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+    },
+    "humidity": 41,
+    "feelslike_f": 52.6,
+    "vis_miles": 9.0,
+    "uv": 1.0
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2024-04-21",
+        "day": {
+          "maxtemp_f": 63.1,
+          "mintemp_f": 31.0,
+          "condition": {
+            "text": "Partly Cloudy ",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+          }
+        },
+        "astro": {
+          "sunrise": "06:13 AM",
+          "sunset": "07:45 PM"
+        },
+        "hour": [
+          {
+            "time": "2024-04-21 00:00",
+            "temp_f": 34.9,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png"
+            }
+          },
+          {
+            "time": "2024-04-21 01:00",
+            "temp_f": 34.3,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png"
+            }
+          },
+          {
+            "time": "2024-04-21 02:00",
+            "temp_f": 33.3,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-21 03:00",
+            "temp_f": 32.4,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-21 04:00",
+            "temp_f": 31.7,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png"
+            }
+          },
+          {
+            "time": "2024-04-21 05:00",
+            "temp_f": 31.4,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png"
+            }
+          },
+          {
+            "time": "2024-04-21 06:00",
+            "temp_f": 31.9,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png"
+            }
+          },
+          {
+            "time": "2024-04-21 07:00",
+            "temp_f": 33.3,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-21 08:00",
+            "temp_f": 35.5,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-21 09:00",
+            "temp_f": 38.8,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-21 10:00",
+            "temp_f": 42.8,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-21 11:00",
+            "temp_f": 47.0,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-21 12:00",
+            "temp_f": 51.2,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-21 13:00",
+            "temp_f": 54.9,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-21 14:00",
+            "temp_f": 57.9,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-21 15:00",
+            "temp_f": 60.2,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-21 16:00",
+            "temp_f": 61.6,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-21 17:00",
+            "temp_f": 62.3,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-21 18:00",
+            "temp_f": 61.6,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-21 19:00",
+            "temp_f": 59.1,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png"
+            }
+          },
+          {
+            "time": "2024-04-21 20:00",
+            "temp_f": 55.4,
+            "condition": {
+              "text": "Partly cloudy",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-21 21:00",
+            "temp_f": 55.1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-21 22:00",
+            "temp_f": 53.6,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-21 23:00",
+            "temp_f": 52.4,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2024-04-22",
+        "day": {
+          "maxtemp_f": 76.0,
+          "mintemp_f": 48.2,
+          "condition": {
+            "text": "Partly Cloudy ",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+          }
+        },
+        "astro": {
+          "sunrise": "06:11 AM",
+          "sunset": "07:46 PM"
+        },
+        "hour": [
+          {
+            "time": "2024-04-22 00:00",
+            "temp_f": 51.3,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-22 01:00",
+            "temp_f": 50.6,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-22 02:00",
+            "temp_f": 50.0,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png"
+            }
+          },
+          {
+            "time": "2024-04-22 03:00",
+            "temp_f": 49.5,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png"
+            }
+          },
+          {
+            "time": "2024-04-22 04:00",
+            "temp_f": 49.0,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png"
+            }
+          },
+          {
+            "time": "2024-04-22 05:00",
+            "temp_f": 48.6,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-22 06:00",
+            "temp_f": 48.6,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-22 07:00",
+            "temp_f": 50.7,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-22 08:00",
+            "temp_f": 55.4,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-22 09:00",
+            "temp_f": 60.9,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-22 10:00",
+            "temp_f": 65.7,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-22 11:00",
+            "temp_f": 69.4,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-22 12:00",
+            "temp_f": 72.2,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-22 13:00",
+            "temp_f": 74.1,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png"
+            }
+          },
+          {
+            "time": "2024-04-22 14:00",
+            "temp_f": 74.9,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png"
+            }
+          },
+          {
+            "time": "2024-04-22 15:00",
+            "temp_f": 74.3,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png"
+            }
+          },
+          {
+            "time": "2024-04-22 16:00",
+            "temp_f": 73.3,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png"
+            }
+          },
+          {
+            "time": "2024-04-22 17:00",
+            "temp_f": 72.0,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-22 18:00",
+            "temp_f": 70.0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-22 19:00",
+            "temp_f": 68.0,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-22 20:00",
+            "temp_f": 64.4,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png"
+            }
+          },
+          {
+            "time": "2024-04-22 21:00",
+            "temp_f": 62.4,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-22 22:00",
+            "temp_f": 60.8,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-22 23:00",
+            "temp_f": 59.4,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2024-04-23",
+        "day": {
+          "maxtemp_f": 65.0,
+          "mintemp_f": 48.1,
+          "condition": {
+            "text": "Patchy rain nearby",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+          }
+        },
+        "astro": {
+          "sunrise": "06:10 AM",
+          "sunset": "07:47 PM"
+        },
+        "hour": [
+          {
+            "time": "2024-04-23 00:00",
+            "temp_f": 58.0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-23 01:00",
+            "temp_f": 56.8,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-23 02:00",
+            "temp_f": 55.7,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-23 03:00",
+            "temp_f": 54.2,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-23 04:00",
+            "temp_f": 51.5,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-23 05:00",
+            "temp_f": 49.8,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-23 06:00",
+            "temp_f": 49.4,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-23 07:00",
+            "temp_f": 49.9,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-23 08:00",
+            "temp_f": 50.6,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-23 09:00",
+            "temp_f": 51.9,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-23 10:00",
+            "temp_f": 53.7,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-23 11:00",
+            "temp_f": 55.9,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-23 12:00",
+            "temp_f": 58.2,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png"
+            }
+          },
+          {
+            "time": "2024-04-23 13:00",
+            "temp_f": 60.4,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-23 14:00",
+            "temp_f": 62.1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-23 15:00",
+            "temp_f": 63.5,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+            }
+          },
+          {
+            "time": "2024-04-23 16:00",
+            "temp_f": 62.7,
+            "condition": {
+              "text": "Patchy light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/263.png"
+            }
+          },
+          {
+            "time": "2024-04-23 17:00",
+            "temp_f": 62.5,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+            }
+          },
+          {
+            "time": "2024-04-23 18:00",
+            "temp_f": 61.5,
+            "condition": {
+              "text": "Patchy light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/263.png"
+            }
+          },
+          {
+            "time": "2024-04-23 19:00",
+            "temp_f": 60.1,
+            "condition": {
+              "text": "Patchy light rain in area with thunder",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/386.png"
+            }
+          },
+          {
+            "time": "2024-04-23 20:00",
+            "temp_f": 58.4,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png"
+            }
+          },
+          {
+            "time": "2024-04-23 21:00",
+            "temp_f": 56.0,
+            "condition": {
+              "text": "Thundery outbreaks in nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/200.png"
+            }
+          },
+          {
+            "time": "2024-04-23 22:00",
+            "temp_f": 53.5,
+            "condition": {
+              "text": "Light rain shower",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/353.png"
+            }
+          },
+          {
+            "time": "2024-04-23 23:00",
+            "temp_f": 51.5,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2024-04-24",
+        "day": {
+          "maxtemp_f": 72.9,
+          "mintemp_f": 45.9,
+          "condition": {
+            "text": "Patchy rain nearby",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+          }
+        },
+        "astro": {
+          "sunrise": "06:09 AM",
+          "sunset": "07:48 PM"
+        },
+        "hour": [
+          {
+            "time": "2024-04-24 00:00",
+            "temp_f": 50.6,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-24 01:00",
+            "temp_f": 49.9,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-24 02:00",
+            "temp_f": 49.0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-24 03:00",
+            "temp_f": 48.2,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-24 04:00",
+            "temp_f": 47.5,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-24 05:00",
+            "temp_f": 46.7,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-24 06:00",
+            "temp_f": 46.9,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+            }
+          },
+          {
+            "time": "2024-04-24 07:00",
+            "temp_f": 48.5,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-24 08:00",
+            "temp_f": 51.4,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-24 09:00",
+            "temp_f": 55.5,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-24 10:00",
+            "temp_f": 59.9,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-24 11:00",
+            "temp_f": 63.8,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-24 12:00",
+            "temp_f": 67.1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-24 13:00",
+            "temp_f": 69.7,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-24 14:00",
+            "temp_f": 71.3,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-24 15:00",
+            "temp_f": 71.2,
+            "condition": {
+              "text": "Thundery outbreaks in nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/200.png"
+            }
+          },
+          {
+            "time": "2024-04-24 16:00",
+            "temp_f": 70.9,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-24 17:00",
+            "temp_f": 70.8,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-24 18:00",
+            "temp_f": 70.1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-24 19:00",
+            "temp_f": 67.8,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-24 20:00",
+            "temp_f": 64.4,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png"
+            }
+          },
+          {
+            "time": "2024-04-24 21:00",
+            "temp_f": 62.4,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png"
+            }
+          },
+          {
+            "time": "2024-04-24 22:00",
+            "temp_f": 60.6,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-24 23:00",
+            "temp_f": 58.9,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2024-04-25",
+        "day": {
+          "maxtemp_f": 74.1,
+          "mintemp_f": 51.5,
+          "condition": {
+            "text": "Patchy rain nearby",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+          }
+        },
+        "astro": {
+          "sunrise": "06:07 AM",
+          "sunset": "07:49 PM"
+        },
+        "hour": [
+          {
+            "time": "2024-04-25 00:00",
+            "temp_f": 57.2,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 01:00",
+            "temp_f": 55.6,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 02:00",
+            "temp_f": 54.6,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 03:00",
+            "temp_f": 53.8,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 04:00",
+            "temp_f": 53.0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 05:00",
+            "temp_f": 52.3,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 06:00",
+            "temp_f": 52.3,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 07:00",
+            "temp_f": 54.2,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 08:00",
+            "temp_f": 56.9,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 09:00",
+            "temp_f": 60.1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 10:00",
+            "temp_f": 63.6,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 11:00",
+            "temp_f": 67.1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 12:00",
+            "temp_f": 70.6,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 13:00",
+            "temp_f": 72.3,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-25 14:00",
+            "temp_f": 71.0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+            }
+          },
+          {
+            "time": "2024-04-25 15:00",
+            "temp_f": 70.9,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+            }
+          },
+          {
+            "time": "2024-04-25 16:00",
+            "temp_f": 70.6,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+            }
+          },
+          {
+            "time": "2024-04-25 17:00",
+            "temp_f": 67.2,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+            }
+          },
+          {
+            "time": "2024-04-25 18:00",
+            "temp_f": 64.0,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png"
+            }
+          },
+          {
+            "time": "2024-04-25 19:00",
+            "temp_f": 60.9,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+            }
+          },
+          {
+            "time": "2024-04-25 20:00",
+            "temp_f": 57.2,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png"
+            }
+          },
+          {
+            "time": "2024-04-25 21:00",
+            "temp_f": 55.7,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png"
+            }
+          },
+          {
+            "time": "2024-04-25 22:00",
+            "temp_f": 54.7,
+            "condition": {
+              "text": "Patchy light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/263.png"
+            }
+          },
+          {
+            "time": "2024-04-25 23:00",
+            "temp_f": 54.5,
+            "condition": {
+              "text": "Thundery outbreaks in nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/200.png"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

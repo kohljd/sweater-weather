@@ -33,15 +33,13 @@ RSpec.describe BookFacade do
         to_return(status: 200, body: json_response_2)
 
       results = BookFacade.get_books_about("Denver, CO", 5)
-require 'pry'; binding.pry
-      results.each do |result|
-        expect(result).to be_a(BookResult)
-        # expect(results.current_weather).to be_a(Hash)
-        # expect(results.daily_weather).to be_an(Array)
-        # expect(results.daily_weather).to all(be_a(Hash))
-        # expect(results.hourly_weather).to be_an(Array)
-        # expect(results.hourly_weather).to all(be_a(Hash))
-      end
+      expect(results).to be_a(Book)
+      expect(results.books).to be_an(Array)
+      expect(results.books).to all(be_a(Hash))
+      expect(results.books).to all(include(:isbn, :title, :publisher))
+      expect(results.forecast).to be_a(Hash)
+      expect(results.total_books_found).to be_an(Integer)
+      expect(results.destination).to be_a(String)
     end
   end
 end

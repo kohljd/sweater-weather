@@ -8,7 +8,7 @@ This is the final project for Turing's Mod 3 backend program.<br>
 
 Request
 ```http
-GET /api/v0/forecast?location=cincinatti,oh
+GET /api/v0/forecast?location=denver,co
 Content-Type: application/json
 Accept: application/json
 ```
@@ -21,25 +21,207 @@ Response
     "type": "forecast",
     "attributes": {
       "current_weather": {
-        "last_updated": "2023-04-07 16:30",
-        "temperature": 55.0,
-        etc
+        "last_updated": "2024-04-22 04:45",
+        "temperature": 50.9,
+        "feels_like": 48.9,
+        "humidity": 37,
+        "uvi": 1.0,
+        "visibility": 9.0,
+        "condition": "Partly cloudy",
+        "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
       },
       "daily_weather": [
         {
-          "date": "2023-04-07",
-          "sunrise": "07:13 AM",
-          etc
+          "date": "2024-04-22",
+          "sunrise": "06:11 AM",
+          "sunset": "07:46 PM",
+          "max_temp": 76.1,
+          "min_temp": 48.1,
+          "condition": "Partly Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
         },
-        {...} etc
+        {
+          "date": "2024-04-23",
+          "sunrise": "06:10 AM",
+          "sunset": "07:47 PM",
+          "max_temp": 63.8,
+          "min_temp": 47.4,
+          "condition": "Patchy rain nearby",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+        },
+        {
+          "date": "2024-04-24",
+          "sunrise": "06:09 AM",
+          "sunset": "07:48 PM",
+          "max_temp": 75.1,
+          "min_temp": 45.8,
+          "condition": "Patchy rain nearby",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png"
+        },
+        {
+          "date": "2024-04-25",
+          "sunrise": "06:07 AM",
+          "sunset": "07:49 PM",
+          "max_temp": 74.5,
+          "min_temp": 52.0,
+          "condition": "Sunny",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        },
+        {
+          "date": "2024-04-26",
+          "sunrise": "06:06 AM",
+          "sunset": "07:50 PM",
+          "max_temp": 66.4,
+          "min_temp": 53.6,
+          "condition": "Partly Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        }
       ],
       "hourly_weather": [
         {
-          "time": "14:00",
-          "temperature": 54.5,
-          etc
+          "time": "00:00",
+          "temperature": 51.1,
+          "conditions": "Partly Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
         },
-        {...} etc
+        {
+          "time": "01:00",
+          "temperature": 50.5,
+          "conditions": "Partly Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+        },
+        {
+          "time": "02:00",
+          "temperature": 50.0,
+          "conditions": "Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png"
+        },
+        {
+          "time": "03:00",
+          "temperature": 49.6,
+          "conditions": "Overcast ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        },
+        {
+          "time": "04:00",
+          "temperature": 50.9,
+          "conditions": "Partly cloudy",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+        },
+        {
+          "time": "05:00",
+          "temperature": 48.6,
+          "conditions": "Overcast ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        },
+        {
+          "time": "06:00",
+          "temperature": 48.6,
+          "conditions": "Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png"
+        },
+        {
+          "time": "07:00",
+          "temperature": 50.7,
+          "conditions": "Partly Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        },
+        {
+          "time": "08:00",
+          "temperature": 55.2,
+          "conditions": "Sunny",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        },
+        {
+          "time": "09:00",
+          "temperature": 60.7,
+          "conditions": "Sunny",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        },
+        {
+          "time": "10:00",
+          "temperature": 65.5,
+          "conditions": "Sunny",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        },
+        {
+          "time": "11:00",
+          "temperature": 69.0,
+          "conditions": "Sunny",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        },
+        {
+          "time": "12:00",
+          "temperature": 71.9,
+          "conditions": "Partly Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        },
+        {
+          "time": "13:00",
+          "temperature": 74.0,
+          "conditions": "Overcast ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        },
+        {
+          "time": "14:00",
+          "temperature": 74.7,
+          "conditions": "Overcast ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        },
+        {
+          "time": "15:00",
+          "temperature": 74.3,
+          "conditions": "Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png"
+        },
+        {
+          "time": "16:00",
+          "temperature": 72.8,
+          "conditions": "Partly Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        },
+        {
+          "time": "17:00",
+          "temperature": 71.6,
+          "conditions": "Partly Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        },
+        {
+          "time": "18:00",
+          "temperature": 69.3,
+          "conditions": "Partly Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        },
+        {
+          "time": "19:00",
+          "temperature": 66.9,
+          "conditions": "Sunny",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        },
+        {
+          "time": "20:00",
+          "temperature": 64.3,
+          "conditions": "Partly Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+        },
+        {
+          "time": "21:00",
+          "temperature": 62.8,
+          "conditions": "Clear ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+        },
+        {
+          "time": "22:00",
+          "temperature": 61.0,
+          "conditions": "Partly Cloudy ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+        },
+        {
+          "time": "23:00",
+          "temperature": 59.5,
+          "conditions": "Clear ",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+        }
       ]
     }
   }

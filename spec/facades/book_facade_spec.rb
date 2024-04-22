@@ -32,7 +32,7 @@ RSpec.describe BookFacade do
           ).
         to_return(status: 200, body: json_response_2)
 
-      results = BookFacade.get_books_about("Denver, CO", 5)
+      results = BookFacade.get_books_about("Denver, CO", "5")
       expect(results).to be_a(Book)
       expect(results.books).to be_an(Array)
       expect(results.books).to all(be_a(Hash))

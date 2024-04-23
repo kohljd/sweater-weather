@@ -9,7 +9,7 @@ RSpec.describe "POST /api/v0/users" do
       "password_confirmation": "the_most_secure_password"
     }
 
-    get "/api/v0/users", body: body, headers: headers
+    post "/api/v0/users", params: body, headers: headers
 
     expect(response).to be_successful
     expect(response.status).to eq(201)
@@ -17,7 +17,7 @@ RSpec.describe "POST /api/v0/users" do
     parsed_response = JSON.parse(response.body, symbolize_names: true)
     user = parsed_response[:data]
 
-    expect(user[:id]).to eq(User.last.id)
+    expect(user[:id]).to eq(User.last.id.to_s)
     expect(user[:type]).to eq("users")
     expect(user[:attributes]).to include(:email, :api_key)
   end

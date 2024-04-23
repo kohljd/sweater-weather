@@ -7,6 +7,10 @@ class ApplicationController < ActionController::API
   end
 
   def invalid_error(exception)
-    render json: { errors:[{ status: 400, detail: exception.message }] }, status: :bad_request
+    if exception.message.include?("taken")
+      render json: { errors:[{ status: 422, detail: exception.message }] }, status: :unprocessable_entity
+    else
+      render json: { errors:[{ status: 400, detail: exception.message }] }, status: :bad_request
+    end
   end
 end

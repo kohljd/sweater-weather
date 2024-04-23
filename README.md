@@ -250,7 +250,7 @@ Body:
 }
 ```
 
-Response: `status: 201`
+Response: `status: 200`
 ```json
 {
   "data": {
@@ -268,30 +268,30 @@ Response: `status: 201`
 <details>
 <summary><b>User Login</b></summary>
 
-Request
+Request:
 ```http
 POST /api/v0/sessions
 Content-Type: application/json
 Accept: application/json
+```
 
+Body:
+```json
 {
-  "email": "whatever@example.com",
-  "password": "password"
+  "email": "unknown@email.com",
+  "password": "the_most_secure_password"
 }
 ```
 
-Response
+Response: `status: 200`
 ```json
-status: 200
-body:
-
 {
   "data": {
-    "type": "users",
     "id": "1",
+    "type": "users",
     "attributes": {
-      "email": "whatever@example.com",
-      "api_key": "t1h2i3s4_i5s6_l7e8g9i10t11"
+      "email": "unknown@email.com",
+      "api_key": "ea2f6e7441fab8aa96f1611a0361c60d"
     }
   }
 }

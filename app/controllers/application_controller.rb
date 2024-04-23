@@ -3,7 +3,11 @@ class ApplicationController < ActionController::API
   rescue_from ActiveRecord::RecordInvalid, with: :invalid_error
 
   def not_found_error(exception)
-    render json: { errors:[{ status: 404, detail: exception.message }] }, status: :not_found
+    if exception.message.include?("WHERE")
+      render json: { errors:[{ status: 404, detail: "Couldn't find #{exception.model}" }] }, status: :not_found
+    else
+      render json: { errors:[{ status: 404, detail: exception.message }] }, status: :not_found
+    end
   end
 
   def invalid_error(exception)

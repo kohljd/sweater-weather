@@ -12,9 +12,5 @@ Rails.application.routes.draw do
     namespace :v0 do
       resource :forecast, only: :show
     end
-
-    namespace :v1 do
-      get "/book-search", to: "books#index"
-    end
   end
 end

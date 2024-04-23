@@ -1,7 +1,7 @@
 class User < ApplicationRecord
   before_create :generate_api_key
 
-  validates :email, presence: true, uniqueness: true, format: { with: URI::MailTo::EMAIL_REGEXP, message: 'Must be a valid email address'}
+  validates :email, presence: true, uniqueness: true, format: { with: URI::MailTo::EMAIL_REGEXP }
   validates :password, presence: true
   validates :password, confirmation: true, on: :create
   validates :api_key, uniqueness: true
@@ -14,3 +14,5 @@ class User < ApplicationRecord
     self.api_key = SecureRandom.hex(16)
   end
 end
+
+# , message: "must be a valid email address"

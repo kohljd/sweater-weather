@@ -6,14 +6,16 @@ This is the final project for Turing's Mod 3 backend program.<br>
 <details>
 <summary><b>City's Weather</b></summary>
 
-Request
+Request:
 ```http
 GET /api/v0/forecast?location=denver,co
 Content-Type: application/json
 Accept: application/json
 ```
 
-Response
+Response: 
+`status: 200`
+
 ```json
 {
   "data": {
@@ -232,31 +234,31 @@ Response
 <details>
 <summary><b>User Registration</b></summary>
 
-Request
+Request:
 ```http
 POST /api/v0/users
 Content-Type: application/json
 Accept: application/json
+```
 
+Body:
+```json
 {
-  "email": "whatever@example.com",
-  "password": "password",
-  "password_confirmation": "password"
+  "email": "unknown@email.com",
+  "password": "the_most_secure_password",
+  "password_confirmation": "the_most_secure_password"
 }
 ```
 
-Response
+Response: `status: 201`
 ```json
-status: 201
-body:
-
 {
   "data": {
-    "type": "users",
     "id": "1",
+    "type": "users",
     "attributes": {
-      "email": "whatever@example.com",
-      "api_key": "t1h2i3s4_i5s6_l7e8g9i10t11"
+      "email": "unknown@email.com",
+      "api_key": "ea2f6e7441fab8aa96f1611a0361c60d"
     }
   }
 }

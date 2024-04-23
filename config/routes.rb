@@ -11,7 +11,8 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v0 do
       resource :forecast, only: :show
-      resources :users, only: [:create]
+      resources :users, only: :create
+      resources :sessions, only: :create
     end
   end
 end

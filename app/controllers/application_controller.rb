@@ -4,7 +4,6 @@ class ApplicationController < ActionController::API
 
   def not_found_error(exception)
     if exception.message.include?("WHERE")
-      # require 'pry'; binding.pry
       render json: { errors:[{ status: 404, detail: "Couldn't find #{exception.model}" }] }, status: :not_found
     else
       render json: { errors:[{ status: 404, detail: exception.message }] }, status: :not_found

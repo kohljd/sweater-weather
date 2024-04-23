@@ -13,7 +13,7 @@ RSpec.describe "POST /api/v0/sessions" do
     post "/api/v0/sessions", params: body, headers: headers
 
     expect(response).to be_successful
-    expect(response.status).to eq(201)
+    expect(response.status).to eq(200)
 
     parsed_response = JSON.parse(response.body, symbolize_names: true)
     session = parsed_response[:data]

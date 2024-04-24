@@ -1,0 +1,53 @@
+{
+  "location": {
+    "name": "Chicago",
+    "region": "Illinois",
+    "country": "United States of America",
+    "lat": 41.88,
+    "lon": -87.63,
+    "tz_id": "America/Chicago",
+    "localtime_epoch": 1713935138,
+    "localtime": "2024-04-24 0:05"
+  },
+  "current": {
+    "last_updated": "2024-04-24 00:00",
+    "temp_f": 50,
+    "condition": {
+      "text": "Partly cloudy",
+      "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+    },
+    "humidity": 66,
+    "feelslike_f": 43.7,
+    "vis_miles": 9,
+    "uv": 1
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2024-04-24",
+        "day": {
+          "maxtemp_f": 41.7,
+          "mintemp_f": 37.8,
+          "condition": {
+            "text": "Partly Cloudy ",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png"
+          }
+        },
+        "astro": {
+          "sunrise": "05:56 AM",
+          "sunset": "07:42 PM"
+        },
+        "hour": [
+          {
+            "time": "2024-04-24 05:00",
+            "temp_f": 38.2,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

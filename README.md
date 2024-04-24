@@ -306,33 +306,34 @@ Request
 POST /api/v0/road_trip
 Content-Type: application/json
 Accept: application/json
+```
 
-body:
-
+Body:
+```json
 {
   "origin": "Cincinatti,OH",
   "destination": "Chicago,IL",
-  "api_key": "t1h2i3s4_i5s6_l7e8g9i10t11"
+  "api_key": "ea2f6e7441fab8aa96f1611a0361c60d"
 }
 ```
 
 Response
 ```json
 {
-    "data": {
-        "id": "null",
-        "type": "road_trip",
-        "attributes": {
-            "start_city": "Cincinatti, OH",
-            "end_city": "Chicago, IL",
-            "travel_time": "04:40:45",
-            "weather_at_eta": {
-                "datetime": "2023-04-07 23:00",
-                "temperature": 44.2,
-                "condition": "Cloudy with a chance of meatballs"
-            }
-        }
+  "data": {
+    "id": null,
+    "type": "road_trip",
+    "attributes": {
+      "start_city": "Cincinatti,OH",
+      "end_city": "Chicago,IL",
+      "travel_time": "4 hrs 20 min",
+      "weather_at_eta": {
+        "datetime": "2024-04-24 15:00",
+        "temperature": 41.8,
+        "condition": "Sunny"
+      }
     }
+  }
 }
 ```
 </details>

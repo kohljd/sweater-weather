@@ -1,0 +1,83 @@
+{
+  "info": {
+    "statuscode": 0,
+    "copyright": {
+      "text": "© 2024 MapQuest, Inc.",
+      "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+      "imageAltText": "© 2024 MapQuest, Inc."
+    },
+    "messages": []
+  },
+  "time": [
+    0,
+    15639
+  ],
+  "distance": [
+    0,
+    296.2841
+  ],
+  "locations": [
+    {
+      "street": "",
+      "adminArea6": "",
+      "adminArea6Type": "Neighborhood",
+      "adminArea5": "Cincinnati",
+      "adminArea5Type": "City",
+      "adminArea4": "Hamilton",
+      "adminArea4Type": "County",
+      "adminArea3": "OH",
+      "adminArea3Type": "State",
+      "adminArea1": "US",
+      "adminArea1Type": "Country",
+      "postalCode": "",
+      "geocodeQualityCode": "A5XBX",
+      "geocodeQuality": "CITY",
+      "dragPoint": false,
+      "sideOfStreet": "N",
+      "linkId": "0",
+      "unknownInput": "",
+      "type": "s",
+      "latLng": {
+        "lat": 39.10713,
+        "lng": -84.50413
+      },
+      "displayLatLng": {
+        "lat": 39.10713,
+        "lng": -84.50413
+      },
+      "mapUrl": ""
+    },
+    {
+      "street": "",
+      "adminArea6": "",
+      "adminArea6Type": "Neighborhood",
+      "adminArea5": "Chicago",
+      "adminArea5Type": "City",
+      "adminArea4": "Cook",
+      "adminArea4Type": "County",
+      "adminArea3": "IL",
+      "adminArea3Type": "State",
+      "adminArea1": "US",
+      "adminArea1Type": "Country",
+      "postalCode": "",
+      "geocodeQualityCode": "A5XAX",
+      "geocodeQuality": "CITY",
+      "dragPoint": false,
+      "sideOfStreet": "N",
+      "linkId": "0",
+      "unknownInput": "",
+      "type": "s",
+      "latLng": {
+        "lat": 41.88425,
+        "lng": -87.63245
+      },
+      "displayLatLng": {
+        "lat": 41.88425,
+        "lng": -87.63245
+      },
+      "mapUrl": ""
+    }
+  ],
+  "allToAll": false,
+  "manyToOne": false
+}

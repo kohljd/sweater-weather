@@ -78,7 +78,7 @@ RSpec.describe "POST /api/v0/road_trip" do
     allow(Time).to receive(:now).and_return(Time.parse("2024-04-24 02:22:40.541249 -0500"))
     coordinates = {lat: 51.50643, lng: -0.12719}
     date = "2024-04-24"
-    hour = 7
+    hour = 2
     json_response_2 = File.read("spec/fixtures/road_trip/weather_on_arrival.json")
     stub_request(:get, "https://api.weatherapi.com/v1/forecast.json").
       with(

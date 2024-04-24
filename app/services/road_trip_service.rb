@@ -14,12 +14,12 @@ class RoadTripService
     end
   end
 
-  def self.weather_at_arrival(coordinates, date, hour)
+  def self.weather_at_arrival(coordinates, time)
     params = {
       q: "#{coordinates[:lat]},#{coordinates[:lng]}",
       days: 1,
-      dt: "#{date}",
-      hour: "#{hour}",
+      dt: "#{time[:date]}",
+      hour: "#{time[:hour]}",
       aqi: "no",
       alerts: "no"
     }

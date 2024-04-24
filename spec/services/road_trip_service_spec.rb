@@ -21,8 +21,7 @@ RSpec.describe RoadTripService do
   describe ".weather_at_arrival(coordinates, date, hour)" do
     it "returns weather forecast at estimated arrival time" do
       coordinates = {lat: 41.88425, lng: -87.63245}
-      date = "2024-04-24"
-      hour = 5
+      time = {date: "2024-04-24", hour: 5}
       json_response = File.read("spec/fixtures/road_trip/weather_on_arrival.json")
       stub_request(:get, "https://api.weatherapi.com/v1/forecast.json").
         with(
@@ -30,15 +29,15 @@ RSpec.describe RoadTripService do
               key: Rails.application.credentials.weather[:api_key],
               q: "#{coordinates[:lat]},#{coordinates[:lng]}",
               days: 1,
-              dt: date,
-              hour: hour,
+              dt: time[:date],
+              hour: time[:hour],
               aqi: "no",
               alerts: "no"
             }
           ).
         to_return(status: 200, body: json_response)
 
-      parsed_json = RoadTripService.weather_at_arrival(coordinates, date, hour)
+      parsed_json = RoadTripService.weather_at_arrival(coordinates, time)
       expect(parsed_json).to be_a(Hash)
 
       weather = parsed_json[:forecast][:forecastday]
